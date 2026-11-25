@@ -1,0 +1,5 @@
+[project]
+name = "reconstrucao-temporal"
+version = "0.1.0"
+description = "Reconstrução bitemporal de estados de tarefas para previsões de cronograma."
+requires-python = ">=3.11"
