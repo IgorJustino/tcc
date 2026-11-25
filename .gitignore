@@ -23,6 +23,7 @@ venv/
 # Dados grandes ou sensíveis
 codigo/dados/*
 !codigo/dados/.gitkeep
+*.db
 .env
 
 # Editor/SO
