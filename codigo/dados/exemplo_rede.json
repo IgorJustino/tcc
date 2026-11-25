@@ -1,0 +1,16 @@
+{
+  "status_date": 2.0,
+  "tasks": [
+    {
+      "id": "T1",
+      "source_task_id": "issue-42",
+      "name": "Reconstrução temporal",
+      "to": 1.0,
+      "tm": 2.0,
+      "tp": 3.0,
+      "actual_duration": 0.0
+    }
+  ],
+  "dependencies": [],
+  "risks": []
+}
