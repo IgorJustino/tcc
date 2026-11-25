@@ -1,0 +1,25 @@
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[alf]{abntex2cite}
+\graphicspath{{figuras/}}
+
+\title{Título provisório do TCC}
+\author{Igor Justino}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\include{capitulos/01-introducao}
+\include{capitulos/02-referencial}
+\include{capitulos/03-metodologia}
+\include{capitulos/04-resultados}
+\include{capitulos/05-conclusao}
+
+\bibliography{referencias/referencias}
+\end{document}

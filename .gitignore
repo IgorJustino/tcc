@@ -1,0 +1,31 @@
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+monografia/main.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dados grandes ou sensíveis
+codigo/dados/*
+!codigo/dados/.gitkeep
+.env
+
+# Editor/SO
+.vscode/
+.idea/
+.DS_Store
